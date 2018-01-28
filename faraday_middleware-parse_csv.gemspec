@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'faraday', '~> 0.9'
   spec.add_runtime_dependency 'faraday_middleware', '~> 0.9'
 
-  spec.add_development_dependency 'coveralls', '~> 0.6'
-  spec.add_development_dependency 'rake', '~> 10.3'
-  spec.add_development_dependency 'rspec', '~> 3.1'
-  spec.add_development_dependency 'yard', '~> 0.8'
+  spec.add_development_dependency 'coveralls', '~> 0.8'
+  spec.add_development_dependency 'rake', '~> 12.3'
+  spec.add_development_dependency 'rspec', '~> 3.7'
+  spec.add_development_dependency 'yard', '~> 0.9'
 end
