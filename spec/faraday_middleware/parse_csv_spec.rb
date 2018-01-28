@@ -21,10 +21,10 @@ describe FaradayMiddleware::ParseCSV do
   end
 
   it 'parses the response of a csv string' do
-    expect(@connection.get('/normal').body).to eq [%w(one two three)]
+    expect(@connection.get('/normal').body).to eq [%w[one two three]]
   end
 
   it 'parses the response of a utf-8 bom string' do
-    expect(@connection.get('/utf8').body).to eq [%w(one two three)]
+    expect(@connection.get('/utf8').body).to eq [%w[one two three]]
   end
 end
