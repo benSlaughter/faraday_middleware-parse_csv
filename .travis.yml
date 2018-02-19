@@ -1,9 +1,11 @@
 language: ruby
 rvm:
 - ruby-head
-- 2.1.3
-- 2.1.0
-- 2.0.0
+- 2.4.3
+- 2.3.6
+- 2.2.8
+- 2.1.10
+- 2.0.0-p648
 matrix:
   allow_failures:
   - rvm: ruby-head
